@@ -7,48 +7,60 @@
     <title>Portfolio Website</title>
 
     <!-- Css and Fonts -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.2.0/css/zocial.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <body>
     <section class="container">
-        <header>
+        <header class="row">
             <div class="col-xs-4 text-left">
                 <img class="img-responsive logo" src="img/udacity.svg" alt="Udacity Logo">
             </div>
             <div class="col-xs-8 text-uppercase text-right">
-                <h1>Jane Doette</h1>
-                <h4>Front-end Ninja</h4>
+                <h1>Anh Nguyen</h1>
+                <h4>Full Stack Samurai</h4>
             </div>
             <div class="clearfix"></div>
         </header>
-
-        <div class="col-xs-12">
-            <hr>
-        </div>
-
-        <img class="img-responsive col-xs-12" src="img/code.png" alt="Code Image">
         
-        <div class="col-xs-12">
-            <h2>Featured Work</h2>            
+        <hr/>
+
+        <figure class="row">
+            <img class="img-responsive col-xs-12" src="img/fullstack.jpg" alt="Full Stack Web Developer">            
+        </figure>
+        
+        <div class="row">
+            <h2 class="col-xs-12">Featured Work</h2>            
         </div>
+
         <div id="projectOne" class="project">
-            <img class="col-xs-12 img-responsive" src="img/project1.png" alt="Project One">
-            <h3 class="text-center col-xs-12 text-uppercase"><strong>Appify</strong></h3>
-            <a class="text-center" href="https://github.com/udacity/Appify"><p>https://github.com/udacity/Appify</p></a>
+            <img class="col-xs-12 img-responsive" src="img/drawer.gif" alt="Project One">
+            <h3 class="text-center col-xs-12 text-uppercase"><strong>App Manager</strong></h3>
+            <div class="row text-center">
+                <a class="zocial github" href="https://github.com/dnna2610/App-Manager">Fork me on Github</a>                
+            </div>
+            <br>
         </div>
         <div id="projectTwo" class="project">
             <img class="col-xs-12 img-responsive" src="img/project2.png" alt="Project Two">
-            <h3 class="text-center col-xs-12 text-uppercase"><strong>Sunflower</strong></h3>
-            <a class="text-center" href="https://github.com/udacity/Sunflower"><p>https://github.com/udacity/Sunflower</p></a>
+            <h3 class="text-center col-xs-12 text-uppercase"><strong>Material Form</strong></h3>
+            <div class="row text-center">
+                <a class="zocial github" href="https://github.com/dnna2610/Material-Form">Fork me on Github</a>                
+            </div>
+            <br>
         </div>
         <div id="projectThree" class="project">
-            <img class="col-xs-12 img-responsive" src="img/project3.png" alt="Project One">
-            <h3 class="text-center col-xs-12 text-uppercase"><strong>Bokeh</strong></h3>
-            <a class="text-center" href="https://github.com/udacity/Bokeh"><p>https://github.com/udacity/Bokeh</p></a>
+            <img class="col-xs-12 img-responsive" src="img/project3.png" alt="Project Three">
+            <h3 class="text-center col-xs-12 text-uppercase"><strong>Material Calendar</strong></h3>
+            <div class="row text-center">
+                <a class="zocial github" href="https://github.com/dnna2610/Material-Calendar">Fork me on Github</a>                
+            </div>
+            <br>
         </div>
+
     </section>
 </body>
 
